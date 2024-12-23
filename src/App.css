@@ -1,0 +1,142 @@
+.mainContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 100vh; 
+}
+
+.homeContainer{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  width:15%;
+}
+
+.homeButton{
+  height:50px;
+  font-weight:bold;
+  border-radius: 15px;
+  width:140px;
+}
+
+.headerLine {
+  display: flex;
+  flex-direction: row;
+  justify-content: center; 
+  align-items: center;
+  width: 100%; 
+  margin-top:2%;;
+}
+
+.headerLine h1 {
+  margin: 0;
+  font-size: 56px;
+}
+
+.blue {
+  color: blue;
+}
+
+.yellowOrange {
+  color: #FFA500; 
+}
+
+.black {
+  color: black;
+  margin-left:10px !important;
+}
+
+p {
+  font-size: 18px;
+  color: gray;
+  text-align: center;
+  font-size: 45px;
+}
+
+.formContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.formGroup {
+  margin-bottom: 40px;
+  width: 150%;
+  display: flex;
+  align-items:center;
+  justify-content: space-between;
+  margin-left:-100px;
+}
+
+label {
+  font-weight: bold;
+  font-size: 25px;
+}
+
+input {
+  font-size:25px;
+  width: 60%;
+}
+
+input::placeholder {
+  text-align: center;
+}
+
+#gender{
+  width: 150px;
+  height: 50px;
+  font-size:20px;
+}
+
+.submitButton{
+  width:150px;
+  height:50px;
+  font-size:25px !important;
+  border-radius:25px;
+  margin-top:50px;
+  cursor: pointer;
+}
+
+/* Hover effect */
+.submitButton:hover {
+  background-color: grey;
+  transform: scale(1.1); 
+}
+
+/* Click (active) effect */
+.submitButton:active {
+  transform: scale(0.98);
+}
+
+.viewContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+th, td {
+  border: 1px solid #ddd;
+  padding: 8px;
+  text-align: left;
+}
+
+th {
+  background-color: #f2f2f2;
+  font-weight: bold;
+}
+
+tr:nth-child(even) {
+  background-color: #f9f9f9;
+}
+
+tr:hover {
+  background-color: #f1f1f1;
+}
